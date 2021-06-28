@@ -1,0 +1,33 @@
+header {
+  height: 48px;  
+  width: 100%;
+  top: 0;
+  left: 0;  
+  position: fixed;
+  background: var(--primary-color);
+  display: block;
+}
+nav {
+  height: 100vh;  
+  width: 265px;
+  background: var(--primary-menu-color);
+  transition: all .2s;
+}
+section {
+  height: 100vh;  
+  width: 100%;
+  background: var(--gray-100);
+  top: 48px;  
+  transition: all .2s;
+  overflow-y: scroll;
+}
+.container {
+  display: flex;
+  position: fixed;
+}
+@media (max-width: 728px) {
+  .container-open {
+    text-overflow: ellipsis;    
+    white-space: nowrap; 
+  }
+}

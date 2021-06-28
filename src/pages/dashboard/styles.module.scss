@@ -1,0 +1,45 @@
+.dashboard {
+    background: var(--background-color-content);
+    margin-top: 48px;
+    flex-grow: 1;
+    color: var(--gray-1);
+
+    .header{
+        background: RGBA( 240, 248, 255, .9 );
+        height: 94px;
+        padding: 16px;
+        width: 100%;
+        border-bottom: 1px solid #e6e6e6;
+        border-bottom-color: rgba(0,0,0,.1);
+        display: flex;
+        align-items: flex-end;
+        position: fixed;
+        backface-visibility: hidden;
+        display: block;
+        box-sizing: border-box;
+        top: 48px;
+        z-index: 800;
+       
+    }
+    .body {
+        padding: 16px;  
+        padding-top: 100px; 
+        
+    }
+    .headerTitle {
+        font-size: 1.8rem;
+    }
+    .headerTitleDescription {
+        font-size: .8rem;
+    }
+    .titleLeftArea {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 728px) {
+    .navOpen {
+        background: var(--gray-100);
+        color: var(--gray-100);
+    }
+}

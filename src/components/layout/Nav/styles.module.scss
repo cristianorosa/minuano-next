@@ -1,0 +1,17 @@
+.nav_close {
+    width: 52px;
+}
+
+.nav_open {
+    width: 265px;
+}     
+
+.nav {
+    
+}
+
+@media (max-width: 728px) {
+    .nav_close {
+        width: 0px;
+    }
+}
